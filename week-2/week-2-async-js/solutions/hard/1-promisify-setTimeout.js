@@ -1,8 +1,8 @@
 function wait(n) {
     let p = new Promise((resolve) => {
-      setTimeout(() => {
+      setTimeout(()=>{
         resolve();
-      }, n * 1000);
+      },n*1000)
     });
     return p;
 }
